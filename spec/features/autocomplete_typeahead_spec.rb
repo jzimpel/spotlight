@@ -25,8 +25,8 @@ describe 'Autocomplete typeahead', type: :feature, js: true do
         featured_image = Spotlight::FeaturedImage.last
 
         expect(featured_image.iiif_manifest_url).to eq 'https://purl.stanford.edu/gk446cj2442/iiif/manifest.json'
-        expect(featured_image.iiif_canvas_id).to eq 'https://purl.stanford.edu/gk446cj2442/iiif/canvas/gk446cj2442_1'
-        expect(featured_image.iiif_image_id).to eq 'https://purl.stanford.edu/gk446cj2442/iiif/annotation/gk446cj2442_1'
+        expect(featured_image.iiif_canvas_id).to eq 'https://purl.stanford.edu/gk446cj2442/iiif/canvas/cocina-fileSet-gk446cj2442-gk446cj2442_1'
+        expect(featured_image.iiif_image_id).to eq 'https://purl.stanford.edu/gk446cj2442/iiif/annotation/cocina-fileSet-gk446cj2442-gk446cj2442_1'
         expect(featured_image.iiif_tilesource).to eq 'https://stacks.stanford.edu/image/iiif/gk446cj2442%2Fgk446cj2442_05_0001/info.json'
       end
 
